@@ -7,7 +7,7 @@ public class PerfectSquare {
         System.out.println(perfectSquare(6));
         System.out.println(perfectSquare(36));
         System.out.println(perfectSquare(0));
-        System.out.println(Math.floor(Math.sqrt(-5)));
+        System.out.println(perfectSquare(-5));
 
     }
 

@@ -4,8 +4,18 @@ public class Madhav {
 
     public static void main(String[] args){
 
-        System.out.println(isMadhavArray(new int[]{2,1,1}));
-        System.out.println(isMadhavArray(new int[]{2,1,1,4,-1,-1}));
+        int [] a= new int[]{2,1,1,4,267,-1};
+        int max =0;
+        for (int i = 0; i < a.length; i++) {
+                if (a[i]> max){
+                    max = a[i];
+                }
+        }
+
+        System.out.println("max " + max);
+
+//        System.out.println(isMadhavArray(new int[]{2,1,1}));
+//        System.out.println(isMadhavArray(new int[]{2,1,1,4,-1,-1}));
 
     }
 
@@ -29,7 +39,9 @@ public class Madhav {
             int sum =0;
             for(int i=startIndex; i<= endIndex; i++ ){
                 sum += a[i];
+
             }
+            System.out.println(sum);
             if(firstElement != sum){
                 isMadhav = 0;
             }

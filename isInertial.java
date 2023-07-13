@@ -24,13 +24,11 @@ public class isInertial {
         }
         if (hasAtleastOneOdd == 0) return 0 + " no odd value";
 
-        for (int i = 1; i < a.length; i++) {
-            for (int j = 0; j < i; j++) {
-                if (a[i] > a[j]) {
+        for (int i = 0; i < a.length; i++) {
                     if (a[i] > maxNumber) maxNumber = a[i];
-                }
-            }
+
         }
+        System.out.println("max " + maxNumber);
         if (maxNumber % 2 == 0 || maxNumber % 2 == -0) {
             maxNumberIsEven = 1;
         }
