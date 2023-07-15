@@ -42,8 +42,8 @@ public class CountSquarePair {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         CountSquarePair s = new CountSquarePair();
-        //int[] a={9, 0, 2, -5, 7};
-        int[] a={11, 5, 4, 20} ;
+        int[] a={9, 0, 2, -5, 7};
+//        int[] a={11, 5, 4, 20} ;
         System.out.println(s.countSquarePair(a));
     }
 
