@@ -12,15 +12,13 @@ public class SplittingChar {
 
     public static char[ ] f(char[ ] a, int start, int len){
         char[] res = new char[len];
-        int length =a.length;
-        System.out.println(length);
-//        if (len < 0 || start < 0 || start+len-1>=a.length)
-//        {
-//            return null;
-//        }
+        if (len < 0 || start < 0 || start+len-1>=a.length)
+        {
+            return null;
+        }
 
 
-        for (int i = start, j =0; j < len ; i++) {
+        for (int i = start, j =0; j < len ; i++, j++) {
             res[j] = a[i];
         }
         return res;
