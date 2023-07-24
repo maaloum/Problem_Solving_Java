@@ -3,6 +3,8 @@ package Challenges;
 import java.sql.Array;
 import java.util.Arrays;
 
+import static java.util.Arrays.*;
+
 public class AllCommonElementsOfTwoArray {
 
     
@@ -25,10 +27,12 @@ public class AllCommonElementsOfTwoArray {
 
     public static void main(String[] args) {
         int[] a2 ={1, 8, 3, 2};
-        int[] a1 = {2, 6, 1};
-
-        int[] res = f(a1, a2);
-        System.out.println(Arrays.toString(res));
+          sort(a2);
+        System.out.println(Arrays.toString(a2));
+//        int[] a1 = {2, 6, 1};
+//
+//        int[] res = f(a1, a2);
+//        System.out.println(Arrays.toString(res));
 
     }
 }
