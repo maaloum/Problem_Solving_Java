@@ -7,11 +7,14 @@ public class GuthrieSequence {
     public static void main(String[] args) {
 //        ArrayList<Integer> guthrieSequence = GuthrieSequenceGenerator(7);
 //        System.out.println(guthrieSequence);
-
-        int[] a = {8, 4,2,1};
-        int[] b = {8, 17,4,1};
-        System.out.println(checkGuthrieSequence(a));
-        System.out.println(checkGuthrieSequence(b));
+        int result = checkGuthrieSequence(new int[] {8, 4, 2, 1});
+        System.out.println(result);
+        result = checkGuthrieSequence(new int[] {8, 17, 4, 1});
+        System.out.println(result);
+        result = checkGuthrieSequence(new int[] {8, 4, 1});
+        System.out.println(result);
+        result = checkGuthrieSequence(new int[] {8, 4, 2});
+        System.out.println(result);
     }
 
 
