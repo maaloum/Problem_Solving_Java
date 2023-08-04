@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GoodSpread",
+            "request": "launch",
+            "mainClass": "GoodSpread",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "AllPossibilities",
             "request": "launch",
             "mainClass": "AllPossibilities",
