@@ -15,7 +15,7 @@ public class TwoSum {
             int sum = a[left] + a[right];
           System.out.println(sum);
             if(sum == target) {
-                return new int[]{ left +1, right +1};
+                return new int[]{ left, right};
             } else if (sum < target) {
                 left++;
             }else {
