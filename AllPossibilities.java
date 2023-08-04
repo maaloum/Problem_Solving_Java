@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class AllPossibilities{
 
 
@@ -17,7 +19,7 @@ public class AllPossibilities{
 
     public static int isAllPosiblities(int[] a){
         if(a == null || a.length == 0) return 0;
-        ArrayList<integers> list = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
         for(int i = 0; i < a.length; i++){
             list.add(a[i]);
         }
